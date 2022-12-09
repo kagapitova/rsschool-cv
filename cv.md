@@ -53,7 +53,10 @@ GeekBrains, Saint-Petersburg, Intensive Software Testing.
 Financial University under the Government of the Russian Federation, Moscow
 Management, Bachelor with the highest mark. State and municipal management
 
+## English
 
-Опыт работы. Junior Dev может перечислить учебные проекты с указанием использованных навыков и ссылками на исходный код.
-Образование (включая пройденные курсы и тренинги)
-Английский язык (уровень английского языка, если была языковая практика, расскажите о ней)
+* 2020
+GeekBrains, Saint-Petersburg,Completed the course «English for IT specialists».
+[ Certificate  English for IT specialists. ](https://gb.ru/certificates/863681?22ff644453b6936856a3c53f5a2bbd71)
+
+* English - B2 - Intermediate Advanced
