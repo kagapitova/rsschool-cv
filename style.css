@@ -1,16 +1,42 @@
+/* 
+позиционирование
+блочная модель (размеры, отступы)
+типографика (свойства шрифта)
+оформление (цвет фона, тень)
+анимация
+*/
+
 html, body {
-    font-family: Arial, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: 'Cinzel', serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
+    border: 1px solid red;
 }
+
 table {
     border-collapse: collapse;
 }
+
 table.border td, table.border th {
     padding: 5px;
     border: 1px solid #c0c0c0;
 }
+
 table.border th {
     background: #e0e0e0;
 }
+
+
+* {
+    box-sizing: border-box;
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
