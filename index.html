@@ -1,30 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>cv</title>
+    <meta name="description" content="cv">
+    <meta name="author" content="SitePoint">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class = "header">
-    <div class="container">
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-        </ul>
-      </nav>
+<header class="header">
+    <div class="container header-container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Сode</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+        </nav>
     </div>
-  </header>
-  <main class = "main">
-    <div class="container"></div>
-  </main>
-  <footer class = "footer">
-    <div class="container"></div>
-  </footer>
+</header>
+<main class="main">
+    <div class="container main-container">
+        <section class="section" id="avatar">
+            <img class="avatar" src="./assets/avatar.jpg" alt="avatar">
+        </section>
+        <section class="section" id="profile">
+            <h1 class="section-title profile">Agapitova Ksenia</h1>
+            <h3>Junior Frontend Developer(Beginner)</h3>
+        </section>
+        <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul>
+                <li><b>Location</b>: Tyrkiye, Alanya</li>
+                <li><b>Phone</b>: +7(999) 527-59-01</li>
+                <li><b>Email</b>: kagapitova@inbox.ru</li>
+                <li><b>GitHub</b>: kagapitova</li>
+                <li><b>Discord</b>: kagapitova</li>
+            </ul>
+        </section>
+        <section class="section" id="summary">
+            <h2 class="section-title">Summary</h2>
+            <p>
+                Master in Financial Management and Capital Market, professional manager with good communication.
+                3 years of experience in a bank, now I am moving to it.
+                I took project manager courses and software testing, took several JS courses and continue to study on my
+                own at rs school.
+            </p>
+        </section>
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li>JavaScript (Basic)</li>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>Git</li>
+            </ul>
+        </section>
+        <section class="section" id="code">
+            <h2 class="section-title">Code Example</h2>
+            <pre>
+    function reverseString(str) {
+        let reversedStr = "";
+        for (let i = str.length - 1; i >= 0; i--) {
+            reversedStr += str[i];
+        }
+        return reversedStr;
+    }
+            </pre>
+        </section>
+        <section class="section" id="courses">
+            <h2 class="section-title">Courses</h2>
+            <ul>
+                <li>
+                    2022
+                    FreeCodeCamp, Tyrkiye, Alanya, JavaScript Algorithms and Data Structures.
+                    <a class="link"
+                       href="https://www.freecodecamp.org/certification/fccb5bfd402-5fb1-43f6-809e-c229ec0ba566/javascript-algorithms-and-data-structures"
+                       target="_blank">Certificate JavaScript Algorithms and Data Structures</a>
+                </li>
+                <li>
+                    2020
+                    GeekBrains, Saint-Petersburg, Intensive Software Testing.
+                    <a class="link" href="https://gb.ru/certificates/812510?bdb7d3532bee9b163daef059d2e57ec1"
+                       target="_blank">Certificate Intensive Software Testing</a>
+                </li>
+            </ul>
+        </section>
+        <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
+            <p>
+                <b>2021</b>
+                Financial University under the Government of the Russian Federation, Moscow
+                Management , Master with the highest mark. Financial management and capital market
+            </p>
+            <p>
+                <b>2018</b>
+                Financial University under the Government of the Russian Federation, Moscow
+                Management, Bachelor with the highest mark. State and municipal management
+            </p>
+        </section>
+        <section class="section" id="english">
+            <h2 class="section-title">English</h2>
+            <ul>
+                <li>2020
+                    GeekBrains, Saint-Petersburg,Completed the course «English for IT specialists».
+                    <a class="link" href="https://gb.ru/certificates/863681?22ff644453b6936856a3c53f5a2bbd71"
+                       target="_blank">Certificate English for IT specialists.</a>
+                </li>
+                <li>
+                    English - B1 - Intermediate
+                </li>
+            </ul>
+        </section>
+    </div>
+</main>
+<footer class="footer">
+    <div class="container footer-container">
+        <div>
+            © 2022
+            <a class="link" href="https://github.com/kagapitova">kagapitova</a>
+        </div>
+        <a class="rss" href="https://rs.school/js/"></a>
+    </div>
+</footer>
 </body>
 </html>
