@@ -59,4 +59,4 @@ Management, Bachelor with the highest mark. State and municipal management
 GeekBrains, Saint-Petersburg,Completed the course «English for IT specialists».
 [ Certificate  English for IT specialists. ](https://gb.ru/certificates/863681?22ff644453b6936856a3c53f5a2bbd71)
 
-* English - B2 - Intermediate Advanced
+* English - B1 - Intermediate
