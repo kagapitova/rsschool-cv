@@ -2,8 +2,8 @@
 ### **Junior Frontend Developer(Beginner)**
 
 ## Contacts
-* **Location**: Tyrkiye, Alanya
-* **Phone**: +7(999) 527-59-01
+* **Location**: Bulgaria, Sofia
+* **Phone**: +359887590133
 * **Email**: kagapitova@inbox.ru
 * **GitHub**: kagapitova
 
@@ -36,6 +36,10 @@ function reverseString(str) {
 2018-2022 Sberbank, Investment consultant.
 
 ## Education
+
+* 2023
+  RS School, JS/FE Pre-School 2022Q4.
+  [ Certificate  JavaScript. ](https://app.rs.school/certificate/ly9f32le)
 
 * 2022
   FreeCodeCamp, Tyrkiye, Alanya, JavaScript Algorithms and Data Structures.
