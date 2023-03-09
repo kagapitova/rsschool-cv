@@ -1,0 +1,188 @@
+/*
+позиционирование
+блочная модель (размеры, отступы)
+типографика (свойства шрифта)
+оформление (цвет фона, тень)
+анимация
+*/
+html {
+    scroll-behavior: smooth;
+}
+
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: 'Cinzel', serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table.border td, table.border th {
+    padding: 5px;
+    border: 1px solid #c0c0c0;
+}
+
+table.border th {
+    background: #e0e0e0;
+}
+
+header {
+    background-color: #865ED3;
+    margin-bottom: 20px;
+}
+
+.header-container {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.main-container {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+
+.section {
+    width: 50%;
+    padding: 0 30px;
+    font-size: 20px;
+}
+
+
+.nav-link:hover {
+    color: #FF8C00;
+}
+
+.section-item a {
+    color: #adbbd2;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.section-item {
+    position: relative;
+    padding-left: 30px;
+}
+
+.section li::marker {
+    content: "";
+}
+
+.section-item a:hover {
+    color: #adbbd2;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.section ul {
+    padding: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.link {
+    text-decoration: none;
+    color: #FF8C00;
+    transition: color 0.2s;
+}
+
+.avatar {
+    width: 250px;
+    border-radius: 150px;
+    box-shadow: -1px 1px 20px 3px rgb(0 0 0 / 60%);
+}
+
+.link:hover {
+    color: #e6e7e8;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.footer-container {
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progect{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #865ED3;
+    color: white;
+    font-size: 25px;
+}
+.pad {
+    padding-bottom: 5%;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: #FF8C00;
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url("./assets/rss.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}
