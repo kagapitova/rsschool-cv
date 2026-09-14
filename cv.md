@@ -41,3 +41,9 @@ function reverseString(str) {
   return reversedStr;
 }
 ```
+
+## Experience
+    Frontend Developer
+    Wildberries · Full-time 
+    Sep 2023 - present
+
