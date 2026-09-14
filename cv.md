@@ -77,6 +77,9 @@ function reverseString(str) {
   GeekBrains, Saint-Petersburg,Completed the course «English for IT specialists».
   [ Certificate  English for IT specialists. ](https://gb.ru/certificates/863681?22ff644453b6936856a3c53f5a2bbd71)
 
+
+## Languages
+
 * English - B2 (Upper-Intermediate)
 * Bulgarian - B1 (Intermediate)
 * Russian - Native
